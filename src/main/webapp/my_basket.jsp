@@ -34,12 +34,13 @@
         <option value="2"><fmt:message key="cash"/></option>
     </select>
     <button type="submit" class="btn btn-info" style="width: 200px"><fmt:message
-            key="add"/> <fmt:message key="product"/></button>
+            key="add"/></button>
     <br>
 </form>
+<br>
 <form action="${pageContext.request.contextPath}/DeliveryController/clearBasket">
     <button type="submit" class="btn btn-info" style="width: 200px"><fmt:message
-            key="add"/> <fmt:message key="product"/></button>
+            key="delete"/></button>
     <br>
 </form>
 </body>
